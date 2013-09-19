@@ -13,8 +13,8 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.0.0.GA</sdk-version>
-    <id>ci.alloy.fugitive</id>
+    <sdk-version>3.1.2.GA</sdk-version>
+    <id>com.sophrinix.ci.alloy.fugitive</id>
     <name>alloy_fugitive</name>
     <version>1.0</version>
     <publisher>aaronksaunders</publisher>

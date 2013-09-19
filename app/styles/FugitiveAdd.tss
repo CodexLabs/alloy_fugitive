@@ -16,7 +16,8 @@
 		keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
 		returnKeyType:Titanium.UI.RETURNKEY_DONE,
 		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-		hintText:'Fugitive Name'
+		hintText:"Fugitive Name",
+		autocorrect: false
 },
 "#name_tf[platform=android]" : {
 		height:Ti.UI.SIZE ,

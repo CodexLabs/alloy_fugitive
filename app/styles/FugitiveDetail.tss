@@ -33,7 +33,7 @@
 		width:200
 },
 "#capture_button" :{
-		title:'Captured',
+		title:'Capture',
 		top:10,
 		height:Ti.UI.SIZE,
 		width:200
