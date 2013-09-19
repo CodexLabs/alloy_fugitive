@@ -17,7 +17,6 @@ Scenario: Select a Fugitive
   When I touch "Jeff Haynie"
 	And take picture
 	
-Scenario: Assign a photo to a Fugitive
 	
 Scenario: Capture a Fugitive
 	Given I am on the Home Screen
