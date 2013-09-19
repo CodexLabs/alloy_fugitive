@@ -6,7 +6,7 @@ It is actually here.
 ## Background
 
 
-This is a fork of Aaron Saunders alloy_fugitive, which is in turn an Alloy port of TiBounty Hunter which is a Titanium port of Bounty Hunter app from 'deep dive into objective-c' or something along those lines.
+This is a fork of Aaron Saunders alloy_fugitive, which is in turn an Alloy port of TiBounty Hunter
 
 Regardless, What makes this version special is that I have wrapped Calabash-ios with two bash scripts to bring you Cucumber testing with Titanium (and Alloy).
 
