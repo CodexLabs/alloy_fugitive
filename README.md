@@ -36,6 +36,10 @@ Also if you only have ruby 1.8 then seriously, upgrade. In fact, I am not even s
 Deleting .ruby-version shouldn't be a problem. That said, my claim is that this test harness works with that version of ruby.
 
 
+## two failing steps
+
+Yes I am aware that the two steps that reference map fail. I did that intentionally. I am writing the blog post up. the next push will fix it.
+
 ## Author(s)
 
 Actual app:
