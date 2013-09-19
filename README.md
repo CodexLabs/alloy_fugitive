@@ -31,6 +31,10 @@ next run
 
 Watch in amazement as it just works.
 
+One minor note: I checked in a .ruby-version file set to 1.9.3-p448 because calabash doesn't work 100% right with ruby 2.0.
+Also if you only have ruby 1.8 then seriously, upgrade. In fact, I am not even sure **HOW** you even have such an outdated version of ruby.
+deleting .ruby-version shouldn't be a problem. That said, my claim is that this test harness works with that version of ruby.
+
 
 ## Author(s)
 
