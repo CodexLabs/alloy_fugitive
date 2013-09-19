@@ -1,17 +1,18 @@
 Cucumber Testing for Titanium (testing alloy fugitive)
 ======================================================
 
+It is actually here. 
 
-Background
-=========
+## Background
+
 
 This is a fork of Aaron Saunders alloy_fugitive, which is in turn an Alloy port of TiBounty Hunter which is a Titanium port of Bounty Hunter app from 'deep dive into objective-c' or something along those lines.
 
 Regardless, What makes this version special is that I have wrapped Calabash-ios with two bash scripts to bring you Cucumber testing with Titanium (and Alloy).
 
 
-Setup
-======
+## Setup
+
 
 Calabash-ios depends on ruby.
 That said you will need to run these commands:
