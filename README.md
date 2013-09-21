@@ -5,6 +5,9 @@ Cucumber Testing for Titanium (testing alloy fugitive)
 ## THESE BASH FILES WILL ERASE YOUR Resources DIRECTORY!!!!!!!!!
 ## THIS IS FINE FOR ALLOY, BUT CLEARLY NOT A GOOD IDEA FOR TITANIUM CLASSIC.
 
+## see the bottom note on why alloy only at the bottom for more info
+
+
 It is actually here. 
 
 ## Background
@@ -43,6 +46,18 @@ Deleting .ruby-version shouldn't be a problem. That said, my claim is that this 
 ## two failing steps
 
 Yes I am aware that the two steps that reference map fail. I did that intentionally. I am writing the blog post up. the next push will fix it.
+
+
+## Why is this Alloy only right now?
+
+It is alloy only because I am deleting the Resources directory every time the specs run.
+
+## Why are you deleting the Resources directory every time the specs run?
+
+Because sometimes when you compile an Alloy written program through Xcode, app.js is not found
+This is a very brute force way of making things work consistently. Please be patient with us.
+
+We'd rather be overkill and consistently work than less forceful and not consistently work. 
 
 ## Author(s)
 
