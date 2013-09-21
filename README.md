@@ -1,6 +1,10 @@
 Cucumber Testing for Titanium (testing alloy fugitive)
 ======================================================
 
+## IMPORTANT: THIS IS FOR ALLOY ONLY. If you need Titanium classic Cucumber testing then please help me or wait until the node package is out.
+## THESE BASH FILES WILL ERASE YOUR Resources DIRECTORY!!!!!!!!!
+## THIS IS FINE FOR ALLOY, BUT CLEARLY NOT A GOOD IDEA FOR TITANIUM CLASSIC.
+
 It is actually here. 
 
 ## Background
@@ -8,7 +12,7 @@ It is actually here.
 
 This is a fork of Aaron Saunders alloy_fugitive, which is in turn an Alloy port of TiBounty Hunter
 
-Regardless, What makes this version special is that I have wrapped Calabash-ios with two bash scripts to bring you Cucumber testing with Titanium (and Alloy).
+Regardless, What makes this version special is that I have wrapped Calabash-ios with two bash scripts to bring you Cucumber testing with Alloy.
 
 
 ## Setup
