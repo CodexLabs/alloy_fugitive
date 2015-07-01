@@ -1,63 +1,33 @@
-Cucumber Testing for Titanium (testing alloy fugitive)
-======================================================
+[![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/)
+[![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
+____
+### Codex Casts Episode 16
+This is the application I use to Ti Mocha Test. Also, an episode on Ti Calabash is coming soon.
 
-## IMPORTANT: THIS IS FOR ALLOY ONLY. If you need Titanium classic Cucumber testing then please help me or wait until the node package is out.
-## THESE BASH FILES WILL ERASE YOUR Resources DIRECTORY!!!!!!!!!
-## THIS IS FINE FOR ALLOY, BUT CLEARLY NOT A GOOD IDEA FOR TITANIUM CLASSIC.
+#### Videos
+Appcelerator Alloy Simple TableView Mobile App: https://youtu.be/Sz_V5HAqroU via @YouTube
+Intro To Titanium Studio and Your First Appcelerator Alloy HelloWorld App: https://youtu.be/EBFbkM5eM6w via @YouTube
+____
+### Sample Application Demonstrating Appcelerator Alloy - Alloy Fugitive
 
-## see the bottom note on why alloy only at the bottom for more info
+You will need to properly configure the tiapp.xml file to support google maps for your
+application. Information can be found here:
 
+http://docs.appcelerator.com/titanium/latest/#!/guide/Google_Maps_v2_for_Android-section-36739898_GoogleMapsv2forAndroid-GettingStarted
 
-It is actually here. 
+Aaron K. Saunders
+- web: www.clearlyinnovative.com
+- email: aaron@clearlyinnovative.com 
+- twitter: @aaronksaunders  
 
-## Background
+_Concepts here are meant to be a introductory guide to concepts covered in my book on Appcelerator Alloy and Appcelerator Cloud Services_
 
+### New Appcelerator Alloy Book by Aaron Saunders (You should buy it :-) )
 
-This is a fork of Aaron Saunders alloy_fugitive, which is in turn an Alloy port of TiBounty Hunter
+![text](https://raw.githubusercontent.com/aaronksaunders/testInClass/master/screens/small_book_cover.png)
 
-Regardless, What makes this version special is that I have wrapped Calabash-ios with two bash scripts to bring you Cucumber testing with Alloy.
+There is a more comprehensive sample application here that integrates Appcelerator Titanium Alloy and Appcelerator Cloud Services [Building Cross-Platform Apps using Titanium, Alloy, and Appcelerator Cloud Services](https://github.com/aaronksaunders/AppC-Alloy-Book)
 
-
-## Setup
-
-
-Calabash-ios depends on ruby.
-That said you will need to run these commands:
-
-`gem install calabash --no-ri --no-rdoc`
-
-Next you will want to run
-
-`./run.sh`
-
-When you are asked what scheme you want to copy, just press enter
-
-next run
-
-`./ticucumber.sh`
-
-Watch in amazement as it just works.
-
-One minor note: I checked in a .ruby-version file set to 1.9.3-p448 because calabash doesn't work 100% right with ruby 2.0.
-Also if you only have ruby 1.8 then seriously, upgrade. In fact, I am not even sure **HOW** you even have such an outdated version of ruby.
-Deleting .ruby-version shouldn't be a problem. That said, my claim is that this test harness works with that version of ruby.
-
-
-## two failing steps
-
-Yes I am aware that the two steps that reference map fail. I did that intentionally. I am writing the blog post up. the next push will fix it.
-
-
-## Why is this Alloy only right now?
-
-It is alloy only because I am deleting the Resources directory every time the specs run.
-
-## Why are you deleting the Resources directory every time the specs run?
-
-Because sometimes when you compile an Alloy written program through Xcode, app.js is not found
-This is a very brute force way of making things work consistently. Please be patient with us.
-
-We'd rather be overkill and consistently work than less forceful and not consistently work. 
 
 ## Author(s)
 
@@ -67,16 +37,18 @@ web: blog.clearlyinnovative.com
 email: aaron@clearlyinnovative.com 
 twitter: @aaronksaunders  
 
-Cucumber Integration, specs, bash scripts:
+Cucumber Integration, Ti-Mocha specs, and other test infrastructure:
 **Andrew McElroy**
 web: blog.codexlabs.com
 email: amcelroy@codexlabs.com
 twitter: @codexlabs
 
+The test harness is largely liberated from Appcelerator's [Movie app](https://github.com/appcelerator/movies)
+
 ## License
 
     Copyright (c) 2012-2013 Aaron K. Saunders
-		Copyright (c) 2013 Andrew McElroy
+		Copyright (c) 2013-2015 Andrew McElroy
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
