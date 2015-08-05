@@ -6,8 +6,7 @@ Feature: Deal with Fugitives
 Scenario: Add a Fugitive
 	Given I am on the Home Screen
 	When I touch "Add"
-	And I touch the "Fugitive Name" input field
-	And I enter "Aslak Hellesoy" into input field number 1
+	And I fill in "Fugitive Name" with "Aslak Hellesoy"
 	And I touch the "Save" button
 	Then I should see text containing "Aslak Hellesoy"
 	And take picture

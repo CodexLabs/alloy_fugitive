@@ -1,6 +1,6 @@
 <Alloy>
 	<Window id="fugitiveAddWindow">
-		<TextField id="name_tf" title="FugitiveName"></TextField>
+		<TextField id="name_tf" title="Fugitive Name" accessibilityLabel="Futigive Name"></TextField>
 		<Button id="save_button"></Button>
 	</Window>
 </Alloy>

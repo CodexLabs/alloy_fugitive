@@ -1,4 +1,4 @@
-Alloy.Globals.Map = require('ti.map');
+//Alloy.Globals.Map = require('ti.map');
 Alloy.Globals.tabGroup = $.tabGroup;
 
 function doClick(e) {
