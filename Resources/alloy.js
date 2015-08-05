@@ -141,7 +141,7 @@ exports.createStyle = function(controller, opts, defaults) {
     apiName = opts.apiName;
     apiName && -1 === apiName.indexOf(".") && (apiName = addNamespace(apiName));
     var styleArray;
-    styleArray = controller && _.isObject(controller) ? require("alloy/widgets/" + controller.widgetId + "/styles/" + controller.name) : require("alloy/styles/" + controller);
+    styleArray = require(controller && _.isObject(controller) ? "alloy/widgets/" + controller.widgetId + "/styles/" + controller.name : "alloy/styles/" + controller);
     var styleFinal = {};
     var i, len;
     for (i = 0, len = styleArray.length; len > i; i++) {
@@ -223,7 +223,7 @@ exports.createCollection = function(name, args) {
 };
 
 exports.isTablet = function() {
-    return "ipad" === Ti.Platform.osname;
+    return false;
 }();
 
 exports.isHandheld = !exports.isTablet;
