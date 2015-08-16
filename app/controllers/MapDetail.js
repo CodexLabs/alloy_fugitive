@@ -1,5 +1,5 @@
 var args = arguments[0] || {};
-/**
+
 var ann = Alloy.Globals.Map.createAnnotation({
 	latitude : args.model.get("capturedLat"),
 	longitude : args.model.get("capturedLong"),
@@ -18,4 +18,3 @@ $.mapView.setRegion({
 	longitudeDelta : 0.1
 });
 
-**/

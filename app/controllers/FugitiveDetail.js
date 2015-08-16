@@ -139,6 +139,7 @@ $.delete_button.addEventListener('click', function(_e) {
 
 // mark where the user was captured
 $.capture_button.addEventListener('click', function(_e) {
+
 	Ti.Geolocation.purpose = 'Tracking down criminal scum';
 	if (Ti.Geolocation.locationServicesEnabled) {
 		if (Ti.Platform.osname === 'android') {

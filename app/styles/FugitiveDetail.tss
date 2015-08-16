@@ -50,7 +50,7 @@
 		width:'200dp'
 },
 "#capture_button" :{
-		title:'Captured',
+		title:'Nab Fugitive',
 		top:'10dp',
 		height:Ti.UI.SIZE,
 		width:'200dp'
